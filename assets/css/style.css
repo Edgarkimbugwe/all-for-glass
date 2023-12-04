@@ -26,6 +26,7 @@
      z-index: 99;
      width: 100%;
      box-shadow: 0 2px 2px #3a3a3a;
+    border-radius: 0 0 15px 15px;
  }
 
  header a {
@@ -37,7 +38,7 @@
     font-family: 'Abhaya Libre', sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
-    color: green;
+    color: rgb(10, 190, 34);
  }
 
  #menu {
@@ -63,5 +64,5 @@
 
  /* Footer */
  footer {
-     background-color: orange;
+     background-color: rgb(10, 190, 34);
  }
