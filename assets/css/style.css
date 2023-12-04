@@ -23,6 +23,10 @@
      background-color: lightcoral;
  }
 
+ h1 {
+    font-family: 'Abhaya Libre', sans-serif;
+ }
+
  /* Main content */
  main {
      background-color: lightblue;
