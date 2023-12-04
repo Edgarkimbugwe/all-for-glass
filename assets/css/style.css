@@ -1,32 +1,36 @@
-/* Asterisk wildcard selector to overide default styles added by the browser */
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
+ /* Google fonts import */
+ @import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;500;600;700;800&family=Barlow+Condensed:wght@300&display=swap');
 
-/* General styles */
-body {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    /* Generic project styles */
-    color: #3a3a3a;
-}
+ /* Asterisk wildcard selector to overide default styles added by the browser */
+ * {
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+ }
 
-/* Header */
-header {
-    background-color: lightcoral;
-}
+ /* General styles */
+ body {
+     min-height: 100vh;
+     display: flex;
+     flex-direction: column;
+     /* Generic project styles */
+     color: #3a3a3a;
+     font-family: 'Barlow Condensed', sans-serif;
+ }
 
-/* Main content */
-main {
-    background-color: lightblue;
-    /* make main content take up any surplus space to push footer*/
-    flex: 1 0 auto;
-}
+ /* Header */
+ header {
+     background-color: lightcoral;
+ }
 
-/* Footer */
-footer {
-    background-color: orange;
-}
+ /* Main content */
+ main {
+     background-color: lightblue;
+     /* make main content take up any surplus space to push footer*/
+     flex: 1 0 auto;
+ }
+
+ /* Footer */
+ footer {
+     background-color: orange;
+ }
