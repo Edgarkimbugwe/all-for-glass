@@ -27,6 +27,9 @@
      width: 100%;
      box-shadow: 0 2px 2px #3a3a3a;
      border-radius: 0 0 15px 15px;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
  }
 
  header a {
@@ -51,21 +54,35 @@
 
  /* Navbar styles with dropdown toggle */
  nav {
-    position: absolute;
-    background-color: #ffffff;
-    width: 100%;
-    left: 0;
-    box-shadow: 0 2px 2px #3a3a3a;
-    padding: 0 1rem;
-    display: none;
+     position: absolute;
+     background-color: #ffffff;
+     width: 100%;
+     left: 0;
+     box-shadow: 0 2px 2px #3a3a3a;
+     padding: 0 1rem;
+     display: none;
+     top: 100%;
  }
 
+ /* Nav toggle */
+ #nav-toggle:checked~nav {
+     display: block;
+ }
+
+ #nav-toggle {
+     display: none;
+ }
+
+ #nav-toggle-label {
+     font-size: 150%;
+ }
 
  /* Main content */
  main {
      background-color: lightblue;
      /* make main content take up any surplus space to push footer*/
      flex: 1 0 auto;
+     margin-top: 37px;
  }
 
  /* Footer */
