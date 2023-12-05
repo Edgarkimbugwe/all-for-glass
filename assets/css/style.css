@@ -82,7 +82,7 @@
      background-color: lightblue;
      /* make main content take up any surplus space to push footer*/
      flex: 1 0 auto;
-     margin-top: 37px;
+     margin-top: 65px;
  }
 
  /* Footer */
