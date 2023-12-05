@@ -34,12 +34,6 @@
     color: inherit;
  }
 
- h1 {
-    font-family: 'Abhaya Libre', sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    color: rgb(10, 190, 34);
- }
 
  #menu {
     font-size: 110%;
@@ -66,3 +60,11 @@
  footer {
      background-color: rgb(10, 190, 34);
  }
+
+@media (max-width: 360px) {
+    /* Resized logo for mobile response */
+    .logo {
+        max-width: 80%;
+        max-height: auto;
+    }
+}
