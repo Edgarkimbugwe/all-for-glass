@@ -81,7 +81,7 @@
      background-color: lightblue;
      /* make main content take up any surplus space to push footer*/
      flex: 1 0 auto;
-     margin-top: 42px;
+     margin-top: 40px;
  }
 
  /* Footer */
@@ -89,50 +89,68 @@
      background-color: rgb(10, 190, 34);
  }
 
- /* Resized logo for mobile response (360px and below */
- @media screen and (max-width: 360px) {
+ /* Resized logo for mobile response (425px and below */
+ @media screen and (max-width: 425px) {
 
      /* logo */
      .logo {
-         max-width: 90%;
+         max-width: 60%;
          max-height: auto;
      }
 
- }
-
- /* Media query: tablets and larger (768px and above) */
- @media screen and (min-width: 768px) {
-
-     /* Header */
-     nav {
-         display: block;
-         position: relative;
-         box-shadow: none;
-         width: fit-content;
-         padding-right: 1rem;
      }
 
-     #menu {
-         display: flex;
+     /* Media query: tablets and larger (768px and above) */
+     @media screen and (min-width: 768px) {
+
+         /* logo */
+         .logo {
+             max-width: 90%;
+             max-height: auto;
+         }
+
+         /* Header */
+         nav {
+             display: block;
+             position: relative;
+             box-shadow: none;
+             width: fit-content;
+             padding-right: 1rem;
+         }
+
+         #menu {
+             display: flex;
+         }
+
+         #menu>li {
+             padding-left: 1rem;
+         }
+
+         .nav-toggle-label {
+             display: none;
+         }
+
+         /* Main content */
+         main {
+             margin-top: 73px;
+         }
      }
 
-     #menu>li {
-         padding-left: 1rem;
-     }
+     /* Media query: tablets and larger (992px and above) */
+     @media screen and (min-width: 992px) {
 
-     .nav-toggle-label {
-         display: none;
-     }
+         /* logo */
+         .logo {
+             max-width: 100%;
+             max-height: auto;
+         }
 
-     /* Main content */
-     main {
-         margin-top: 81px;
-     }
- }
+         #menu a:hover {
+             border-bottom: 1px solid #3a3a3a;
+         }
 
- /* Media query: tablets and larger (992px and above) */
- @media screen and (min-width: 992px) {
-    #menu a:hover {
-        border-bottom: 1px solid #3a3a3a;
-    }
- }
+         /* Main content */
+         main {
+             margin-top: 81px;
+         }
+     }
