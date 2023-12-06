@@ -81,7 +81,7 @@
      background-color: lightblue;
      /* make main content take up any surplus space to push footer*/
      flex: 1 0 auto;
-     margin-top: 37px;
+     margin-top: 42px;
  }
 
  /* Footer */
@@ -91,6 +91,7 @@
 
  /* Resized logo for mobile response (360px and below */
  @media screen and (max-width: 360px) {
+
      /* logo */
      .logo {
          max-width: 90%;
@@ -101,6 +102,7 @@
 
  /* Media query: tablets and larger (768px and above) */
  @media screen and (min-width: 768px) {
+
      /* Header */
      nav {
          display: block;
@@ -111,14 +113,19 @@
      }
 
      #menu {
-        display: flex;
+         display: flex;
      }
 
-     #menu > li {
-        padding-left: 1rem;
+     #menu>li {
+         padding-left: 1rem;
      }
 
      .nav-toggle-label {
-        display: none;
+         display: none;
+     }
+
+     /* Main content */
+     main {
+         margin-top: 81px;
      }
  }
