@@ -87,7 +87,14 @@
  /* Footer */
  footer {
      background-color: rgb(10, 190, 34);
+     align-items: center;
  }
+ 
+ /* Create two columns in the footer */
+ #footer-column {
+    display: flex;
+ }
+
 
  /* Resized logo for mobile response (425px and below */
  @media screen and (max-width: 425px) {
