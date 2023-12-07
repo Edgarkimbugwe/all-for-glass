@@ -87,13 +87,34 @@
  /* Footer */
  footer {
      background-color: rgb(10, 190, 34);
-     align-items: center;
+     padding: 5px;
+     text-align: center;
+ }
+ .column-footer {
+    float: left;
+    width: 50%;
+ }
+
+ #telephone {
+    padding: 10px 0;
+    font-size: 120%;
+    font-weight: bold;
+    text-align: right;
  }
  
+
  /* Create two columns in the footer */
- #footer-column {
+#social-media {
+    padding: 5px 0;
     display: flex;
- }
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+#social-media i{ 
+    font-size: 160%;
+    padding: 3%;
+}
 
 
  /* Resized logo for mobile response (425px and below */
