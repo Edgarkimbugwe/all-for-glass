@@ -61,6 +61,7 @@
      padding: 0 1rem;
      display: none;
      top: 100%;
+     font-weight: bold;
  }
 
  /* Nav toggle */
@@ -88,32 +89,32 @@
  footer {
      background-color: rgb(10, 190, 34);
      padding: 5px;
-     text-align: center;
- }
- .column-footer {
-    float: left;
-    width: 50%;
- }
-
- #telephone {
-    padding: 10px 0;
-    font-size: 120%;
-    font-weight: bold;
-    text-align: right;
  }
  
+footer > p {
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 5px;
+}
 
- /* Create two columns in the footer */
+/* Reduce hr size and centered */
+footer > hr {
+    width: 80%;
+    margin: auto;
+}
+
+ /* Social media icons in the footer */
 #social-media {
-    padding: 5px 0;
     display: flex;
     justify-content: space-evenly;
     list-style-type: none;
+    padding-top: 5px;
 }
 
 #social-media i{ 
-    font-size: 160%;
-    padding: 3%;
+    font-size: 140%;
+    padding: 10%;
+    align-items: center;
 }
 
 
@@ -124,6 +125,15 @@
      .logo {
          max-width: 60%;
          max-height: auto;
+     }
+
+     /* Hide p and hr elements */
+    footer>p {
+        display: none;
+     }
+    
+    footer>hr {
+        display: none;
      }
 
      }
@@ -144,6 +154,7 @@
              box-shadow: none;
              width: fit-content;
              padding-right: 1rem;
+             padding-top: 1rem;
          }
 
          #menu {
