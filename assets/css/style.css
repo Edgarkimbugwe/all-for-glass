@@ -92,20 +92,33 @@
     position: relative;
  }
 
- #free-qoutation {
+ #free-quotation {
     background-color: rgba(186, 86, 123, 0.7);
     text-align: center;
     font-size: larger;
     font-weight: bold;
     position: absolute;
     width: 95%;
-    min-height: 120px;
-    padding-top: 22px;
+    min-height: 140px;
+    padding-top: 10px;
     position: absolute;
-    bottom: 10%;
+    bottom: 3%;
     color: #ffffff;
     
  }
+
+/* <a> tag in free-quotation div */
+#border {
+    padding-top: 4px;
+    border: 3px outset;
+    width: 60%;
+    padding-bottom: 5px;
+    margin: auto;
+}
+
+#border a {
+    text-decoration: none;
+}
 
  /* Footer */
  footer {
@@ -195,6 +208,14 @@ footer > hr {
          main {
              margin-top: 73px;
          }
+
+         /* Free quotation */
+        #free-quotation {
+            width: 300px;
+            left: 50%;
+            transform: translateX(-50%);
+         }
+
      }
 
      /* Media query: tablets and larger (992px and above) */
