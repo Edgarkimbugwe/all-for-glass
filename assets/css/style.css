@@ -119,7 +119,7 @@ footer > hr {
 
 
  /* Resized logo for mobile response (425px and below */
- @media screen and (max-width: 425px) {
+ @media screen and (max-width: 430px) {
 
      /* logo */
      .logo {
