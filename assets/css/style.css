@@ -138,6 +138,7 @@ section > h1 {
 #work p {
     padding: 10px 20px;
     text-align: justify;
+    line-height: 1.6;
 }
 
 #glazier {
@@ -177,6 +178,13 @@ section > h1 {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+/* CSS styling for Ask-us.html */
+
+th {
+    text-align: left;
+    padding: 2px 4px;
 }
 
  /* Footer */
