@@ -125,6 +125,11 @@
     margin: 20px auto;
 }
 
+section > h1 {
+    text-align: center;
+    font-size: xx-large;
+}
+
 #work {
     margin-top: 20px;
     line-height: 20px;
@@ -149,6 +154,17 @@
 
 #work-img {
     background: url("../images/cut-glass.jpeg") no-repeat top center / cover;
+    width: 90vw;
+    height: 90vw;
+    margin-bottom: 20px;
+    border-radius: 25px;
+    max-width: 300px;
+    max-height: 300px;
+    margin-right: 5px;
+}
+
+#work2-img {
+    background: url("../images/red-house-windows.jpeg") no-repeat top center / cover;
     width: 90vw;
     height: 90vw;
     margin-bottom: 20px;
@@ -206,6 +222,10 @@ footer > hr {
          max-height: auto;
      }
 
+     #work2-img {
+        display: none;
+     }
+
      /* Hide p and hr elements */
     footer>p {
         display: none;
@@ -259,6 +279,24 @@ footer > hr {
             left: 50%;
             transform: translateX(-50%);
          }
+        
+         /* About us */
+        #glazier, 
+        #auto-glass {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+        }
+
+        #glazier > div,
+        #auto-glass > div {
+            width: 75%;
+        }
+
+        #auto-glass > div {
+            text-align: end;
+            align-self: flex-end;
+        }
 
      }
 
@@ -280,3 +318,34 @@ footer > hr {
              margin-top: 81px;
          }
      }
+
+    /* Media query: tablets and larger (992px and above) */
+    @media screen and (min-width: 1200px) {
+        /* About us */
+        
+        #work {
+            display: flex;
+            flex-direction: row;
+        }
+
+        #work > div {
+            flex: 1;
+        }
+        
+        #about-us-img {
+            order: 0;
+        }
+
+        #auto-glass {
+            order: 1;
+        }
+
+        #auto-glass > div {
+            align-self: flex-start;
+        }
+
+        #glazier > div {
+            align-self: flex-end;
+        }
+    
+    }
