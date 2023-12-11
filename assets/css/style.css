@@ -181,6 +181,13 @@ section > h1 {
 }
 
 /* CSS styling for Ask-us.html */
+#ask-us {
+    width: 90%;
+    margin: 20px auto;
+}
+#location-map {
+    margin: 20px 0;
+}
 
 th {
     text-align: left;
@@ -192,7 +199,46 @@ th {
      background-color: rgba(78, 171, 165, 0.7);
      padding: 5px;
  }
+
+ /* form styling */
+
+  .contact-form {
+      border-radius: 10px;
+      background-color: #f2f2f2;
+      padding: 10px;
+      width: 100%;
+  }
+
+ input[type=text], input[type=email], textarea {
+     width: 100%;
+     padding: 8px;
+     border: 1px solid #ccc;
+     border-radius: 4px;
+     box-sizing: border-box;
+     margin-top: 6px;
+     margin-bottom: 16px;
+     resize: vertical;
+ }
+
+ legend {
+     font-size: large;
+     font-weight: 600;
+     text-transform: uppercase;
+ }
+
+ input[type=submit] {
+     background-color: #04AA6D;
+     color: white;
+     padding: 10px 15px;
+     border: none;
+     border-radius: 4px;
+     cursor: pointer;
+ }
  
+ input[type=submit]:hover {
+     background-color: #45a049;
+ }
+
 footer > p {
     text-align: center;
     font-weight: bold;
@@ -304,6 +350,21 @@ footer > hr {
         #auto-glass > div {
             text-align: end;
             align-self: flex-end;
+        }
+
+        /* Ask us */
+        #address-location {
+            text-align: center;
+        }
+
+        #address {
+            text-align: left;
+        }
+
+        .pyhsical-location {
+            display: inline-block;
+            padding: 1rem 5rem;
+            vertical-align: middle;
         }
 
      }

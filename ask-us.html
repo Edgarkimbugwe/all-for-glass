@@ -43,32 +43,94 @@
     <main>
         <section id="ask-us">
             <div id="contact-us">
-                <div id="contact-address">
-                    <div id="address">
-                        <table>
-                            <tr>
-                                <th>Day</th>
-                                <th>Time</th>
-                            </tr>
-                            <tr>
-                                <th>Monday - Thursday</th>
-                                <td>07:00 - 17:00</td>
-                            </tr>
-                            <tr>
-                                <th>Friday</th>
-                                <td>07:00 - 16:00</td>
-                            </tr>
-                            <tr>
-                                <th>Weekend</th>
-                                <td>Closed</td>
-                        </table>
+                <div id="address-location">
+                    <div id="address" class="pyhsical-location">
+                        <div>
+                            <strong>Openning Hours</strong>
+                            <table>
+                                <tr>
+                                    <th>Day</th>
+                                    <th>Time</th>
+                                </tr>
+                                <tr>
+                                    <th>Monday - Thursday</th>
+                                    <td>07:00 - 17:00</td>
+                                </tr>
+                                <tr>
+                                    <th>Friday</th>
+                                    <td>07:00 - 16:00</td>
+                                </tr>
+                                <tr>
+                                    <th>Weekend</th>
+                                    <td>Closed</td>
+                            </table>
+                            <br>
+                            <strong>Physical Address</strong>
+                            <br>
+                            All for Glass AB
+                            <br>
+                            Factory street 7
+                            <br>
+                            123 45 Stockholm
+                            <br>
+                            <br>
+                            <span><strong>Phone:</strong></span>
+                            <span>012 345 678 910</span>
+                            <br>
+                            <span><strong>Email:</strong></span>
+                            <span>email@coderscoffeehouse.com</span>
+                        </div>
                     </div>
-                    <div id="location-map">
-
+                    <div id="location" class="pyhsical-location">
+                        <div>
+                            <strong>Our location on Maps</strong>
+                            <br>
+                            <br>
+                            <iframe src="https://www.google.com/maps/d/embed?mid=1kECO4YeLXYIy6mo7r0KGWQH03Ii2hTQ&ehbc=2E312F" width="100%"
+                                height="300px" title="All For Glass - not real map"></iframe>
+                        </div>
+                        <br>
                     </div>
                 </div>
                 <div>
-                    <div id="contact-form"></div>
+                    <strong>Contact Form</strong>
+                    <br>
+                    <br>
+                    <div class="contact-form">
+                        <form action="https://formdump.codeinstitute.net" method="post"></form>
+                            <label for="fname">First Name</label>
+                            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                            <br>                    
+                            <label for="lname">Last Name</label>
+                            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                            <br>
+                            <label for="phone">Telephone Number</label>
+                            <input type="text" id="phone" name="telephonenumber" placeholder="Your telephone number.." required="">
+                            <br>
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email" autocomplete="email" placeholder="Your email address" required="">
+                            <br>
+                            <p>What is the best time for us to contact you back by telephone, Mon - Fri?</p>
+                            <br>
+                            <input id="9-12-radio" name="time-call" value="9-12" type="radio" required>
+                            <label for="9-12-radio">09:00 - 12:00</label>
+                            <br>
+                            <input id="13-16-radio" name="time-call" value="13-16" type="radio" required>
+                            <label for="13-16-radio">13:00 - 16:00</label>
+                            <br>
+                            <br>
+                            <p>Note that we can as well just send you an email with a qoutation if the descriptions are clear</p>
+                            <br>
+                            <fieldset>
+                                <legend>Message</legend>
+                                    <label for="message">How can we help you?</label>
+                                    <br>
+                                    <textarea id="message" name="message" placeholder="FOR GLAZING: Describe your project with a few specifics like measurements. FOR AUTO GLASS: Just your Car make/model/year and type of glass."style="height:200px"></textarea>    
+                            </fieldset>
+                            <br>
+                            <input type="submit" id="submit" value="Submit">
+                        </form>
+                    </div>
                 </div>
             </div>
         </section>
