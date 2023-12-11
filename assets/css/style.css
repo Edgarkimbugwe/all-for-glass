@@ -185,7 +185,7 @@ section > h1 {
     width: 90%;
     margin: 20px auto;
 }
-#location-map {
+#location {
     margin: 20px 0;
 }
 
@@ -194,22 +194,17 @@ th {
     padding: 2px 4px;
 }
 
- /* Footer */
- footer {
-     background-color: rgba(78, 171, 165, 0.7);
-     padding: 5px;
+ /* form styling */
+ .contact-form {
+     border-radius: 10px;
+     background-color: #f2f2f2;
+     padding: 10px;
+     width: 100%;
  }
 
- /* form styling */
-
-  .contact-form {
-      border-radius: 10px;
-      background-color: #f2f2f2;
-      padding: 10px;
-      width: 100%;
-  }
-
- input[type=text], input[type=email], textarea {
+ input[type=text],
+ input[type=email],
+ textarea {
      width: 100%;
      padding: 8px;
      border: 1px solid #ccc;
@@ -234,9 +229,15 @@ th {
      border-radius: 4px;
      cursor: pointer;
  }
- 
+
  input[type=submit]:hover {
      background-color: #45a049;
+ }
+
+ /* Footer */
+ footer {
+     background-color: rgba(78, 171, 165, 0.7);
+     padding: 5px;
  }
 
 footer > p {
@@ -359,12 +360,26 @@ footer > hr {
 
         #address {
             text-align: left;
+            padding-right: 50px;
+        }
+
+        #location {
+            padding-left: 50px;
         }
 
         .pyhsical-location {
             display: inline-block;
-            padding: 1rem 5rem;
+            padding: 1rem 1rem;
             vertical-align: middle;
+        
+        }
+
+        #center-form {
+            text-align: center;
+        }
+
+        iframe {
+            height: 250px;            
         }
 
      }
@@ -415,6 +430,16 @@ footer > hr {
 
         #glazier > div {
             align-self: flex-end;
+        }
+
+         #ask-us {
+            text-align: center;
+        }
+       
+        .contact-form {
+            width: 90%;
+            display: inline-block;
+            text-align: left;
         }
     
     }
