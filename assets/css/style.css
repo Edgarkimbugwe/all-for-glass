@@ -126,9 +126,9 @@
      padding: 0 5px;
  }
 
- section>h1 {
+ #about-us>h1 {
      text-align: center;
-     font-size: xx-large;
+     font-size: 280%;
  }
 
  #work {
@@ -181,10 +181,42 @@
      justify-content: center;
  }
 
- /* CSS styling for Ask-us.html */
+ /* CSS styling for our-work.html */
+ #our-work {
+    width: 90%;
+    margin: 20px auto;
+ }
+
+ #our-work>h2 {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 280%;
+ }
+ #our-work>hr {
+    width: 90%;
+    margin: auto;
+ }
+ #our-work>p {
+     text-align: center;
+ }
+
+ #gallery {
+    margin-top: 10px;
+ }
+
+ .img-height {
+    height: 300px;
+ }
+
+figcaption {
+    font-size: 120%;
+}
+
+ /* CSS styling for ask-us.html */
  #ask-us {
-     width: 90%;
-     margin: 20px auto;
+    background: rgba(4, 170, 109, 0.1);
+    width: 90%;
+    margin: 20px auto;
  }
 
  #location {
@@ -197,10 +229,6 @@
  }
 
  /* form styling */
- #ask-us {
-    background: rgba(4, 170, 109, 0.1);
- }
-
  .contact-form {
      border-radius: 10px;
      background-color: #f2f2f2;
@@ -312,6 +340,14 @@
          display: none;
      }
 
+    #our-work>h2 {
+        text-transform: uppercase;
+        text-align: center;
+        font-size: 180%;
+    }
+
+     
+
      /* Hide p and hr elements */
      footer>p {
          display: none;
@@ -386,6 +422,29 @@
          align-self: flex-end;
      }
 
+     /* our work */
+
+    .img-height {
+        width: 220px;
+    }
+
+     #gallery-photo1 {
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        justify-content: center;
+        align-items: center;    
+     }
+
+    #gallery-photo2 {
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+        justify-content: center;
+        align-items: center;
+     }
+  
+
      /* Ask us */
      #showroom-hr {
         width: 65%;
@@ -447,6 +506,7 @@
         width: 56%;
         margin: auto;
      }
+
  }
 
  /* Media query: tablets and larger (992px and above) */
@@ -477,6 +537,7 @@
      #glazier>div {
          align-self: flex-end;
      }
+  
 
      #ask-us {
          text-align: center;
