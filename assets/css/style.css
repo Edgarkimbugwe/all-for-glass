@@ -81,6 +81,7 @@
      /* make main content take up any surplus space to push footer*/
      flex: 1 0 auto;
      margin-top: 35px;
+    background: rgba(243, 251, 239, 1);
  }
 
  /* Hero section*/
@@ -92,7 +93,7 @@
  }
 
  #free-quotation {
-     background-color: rgba(186, 86, 123, 0.7);
+     background-color: rgba(213, 112, 149, 0.6);
      text-align: center;
      font-size: larger;
      font-weight: bold;
@@ -120,7 +121,7 @@
  }
 
  #about-us {
-    background: rgba(4, 170, 109, 0.1);
+    background: rgba(224, 247, 222, 1);
      width: 95%;
      margin: 20px auto;
      padding: 0 5px;
@@ -183,7 +184,7 @@
 
  /* CSS styling for our-work.html */
  #our-work {
-    background: rgba(4, 170, 109, 0.1);
+    background: rgba(224, 247, 222, 1);
     width: 90%;
     margin: 20px auto;
  } 
@@ -280,7 +281,7 @@ figcaption {
 
  /* Footer */
  footer {
-     background-color: rgba(78, 171, 165, 0.7);
+     background-color: rgba(88, 164, 176, 1);
      padding: 5px;
  }
 
@@ -313,11 +314,7 @@ figcaption {
 
  /* Resized logo for mobile response (425px and below */
  @media screen and (max-width: 430px) {
-    main {
-        background: rgba(4, 170, 109, 0.1);
-    }
-
-     /* logo */
+    /* logo */
      .logo {
          max-width: 60%;
          max-height: 50px;
@@ -364,7 +361,6 @@ figcaption {
 
  /* Media query: tablets and larger (768px and above) */
  @media screen and (min-width: 768px) {
-
      /* logo */
      .logo {
          max-width: 90%;
