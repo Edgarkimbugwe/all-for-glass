@@ -118,11 +118,10 @@
 
  #border a {
      text-decoration: none;
-     background-color: rgba(88, 164, 176, 1);
  }
 
  #border a:hover {
-     background-color: #45a049;
+     background-color: rgba(88, 164, 176, 1);
  }
 
  #about-us {
@@ -264,7 +263,7 @@ figcaption {
 
  input[type=submit] {
      background-color: rgba(88, 164, 176, 1);
-     color: white;
+     color: black;
      padding: 10px 15px;
      border: none;
      border-radius: 4px;
@@ -275,7 +274,7 @@ figcaption {
  }
 
  input[type=submit]:hover {
-     background-color: #45a049;
+     background-color: rgba(4, 170, 109, 0.1);
  }
 
  #submit {
