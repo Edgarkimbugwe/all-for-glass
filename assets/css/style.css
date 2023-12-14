@@ -88,7 +88,7 @@
  #hero {
      height: 600px;
      width: 100%;
-     background: url("../images/water-view.jpeg") no-repeat center center/cover;
+     background: url("../images/water-view.webp") no-repeat center center/cover;
      position: relative;
  }
 
@@ -160,7 +160,7 @@
  }
 
  #work-img {
-     background: url("../images/cut-glass.jpeg") no-repeat top center / cover;
+     background: url("../images/cut-glass.webp") no-repeat top center / cover;
      width: 90vw;
      height: 90vw;
      margin-bottom: 20px;
@@ -171,7 +171,7 @@
  }
 
  #work2-img {
-     background: url("../images/red-house-windows.jpeg") no-repeat top center / cover;
+     background: url("../images/red-house-windows.webp") no-repeat top center / cover;
      width: 90vw;
      height: 90vw;
      margin-bottom: 20px;
