@@ -41,10 +41,11 @@ The services offered by the workshop are are within glazing and auto glass. By g
 ### Color palette
 
 To get matching designs of the colours used to the website, [Coolors](http://coolors.co/) was used. Also note that in the css values these colours were used with rgba values instead of hex values. the intention was to give them an opacity value directly in the color value when required.
+
 ![image](/assets/images/color%20palette.png)
 
 - Header and Footer color : #58A4B0 - Note that in the header, the color is applied to the Logo, as seen in the image below.
-- ![image](/assets/images/all-for-glass-logo.png)
+  ![image](/assets/images/all-for-glass-logo.png)
 - Background colors : #F3FBEF and #E0F7DE
 
 ### Typography

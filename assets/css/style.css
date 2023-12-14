@@ -335,7 +335,7 @@ figcaption {
         text-align: center;
      }
 
-     #showroom-hr {
+     .showroom-hr {
         width: 90%;
         margin: auto;
         margin-bottom: 10px;
@@ -450,7 +450,7 @@ figcaption {
   
 
      /* Ask us */
-     #showroom-hr {
+     .showroom-hr {
         width: 65%;
         margin: auto;
      }
@@ -506,7 +506,7 @@ figcaption {
          margin-top: 56px;
      }
 
-     #showroom-hr {
+     .showroom-hr {
         width: 56%;
         margin: auto;
      }
@@ -553,7 +553,7 @@ figcaption {
          text-align: left;
      }
 
-     #showroom-hr {
+     .showroom-hr {
         width: 40%;
         margin: auto;
      }
