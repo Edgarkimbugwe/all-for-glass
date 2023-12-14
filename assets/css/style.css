@@ -189,8 +189,8 @@
  /* CSS styling for our-work.html */
  #our-work {
     background: rgba(224, 247, 222, 1);
-    width: 90%;
-    margin: 20px auto;
+    width: 95%;
+    margin: 10px auto;
  } 
 
  #our-work>h2 {
@@ -347,6 +347,10 @@ figcaption {
         font-size: 180%;
     }
 
+    .img-height {
+        width: 100%;
+    }
+
      
 
      /* Hide p and hr elements */
@@ -390,7 +394,7 @@ figcaption {
 
      /* Main content */
      main {
-         margin-top: 65px;
+         margin-top: 55px;
      }
 
      #showroom {
