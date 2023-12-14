@@ -227,6 +227,7 @@ figcaption {
 
  #location {
      margin: 20px 0;
+     font-size: larger;
  }
 
  th {
@@ -255,15 +256,9 @@ figcaption {
      resize: vertical;
  }
 
- legend {
-     font-size: large;
-     font-weight: 600;
-     text-transform: uppercase;
- }
-
  input[type=submit] {
      background-color: rgba(88, 164, 176, 1);
-     color: black;
+     color: rgb(39, 21, 121);
      padding: 10px 15px;
      border: none;
      border-radius: 4px;
@@ -274,7 +269,7 @@ figcaption {
  }
 
  input[type=submit]:hover {
-     background-color: rgba(4, 170, 109, 0.1);
+     background-color: rgb(23, 23, 121);
  }
 
  #submit {
@@ -293,6 +288,7 @@ figcaption {
      text-align: center;
      font-weight: bold;
      padding-bottom: 5px;
+     color: rgb(23, 23, 121);
  }
 
  /* Reduce hr size and centered */
@@ -465,6 +461,7 @@ figcaption {
 
      #location {
          padding-left: 50px;
+         font-size: 140%;
      }
 
      .pyhsical-location {
