@@ -210,6 +210,10 @@
     margin-top: 20px;
  }
 
+ #gallery p {
+     font-weight: bold;
+ }
+
  .img-height {
     height: 300px;
  }
