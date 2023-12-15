@@ -29,6 +29,16 @@ All for glass is website with an intention of showing the works of a glazing wor
   - [Deployment](#deployment)
   - [Testing and Validation](#testing-and-validation)
     - [Testing](#testing)
+    - [Validation](#validation)
+      - [Home page](#home-page-1)
+      - [Our work page](#our-work-page-1)
+      - [Ask us page](#ask-us-page-1)
+      - [HTML and CSS Validation](#html-and-css-validation)
+  - [Credits](#credits)
+    - [Code used](#code-used)
+    - [Content](#content-1)
+    - [Media](#media)
+    - [Acknowledgement](#acknowledgement)
 
 ## Purpose and target audience
 
@@ -157,3 +167,56 @@ The live site can be viewed at: [https://edgarkimbugwe.github.io/all-for-glass/]
   - Laptop: Lenovo Thinkpad, Windows 10, running Chrome and Edge (1920x1080 monitor)
   - Samsung Galaxy S21, Android (6.1" diagonal)
   - Alcatel Tablet, Android (10.2" diagonal)
+
+### Validation
+
+#### Home page
+
+When images on the home page were reduced in size and changed from their original formats to Webp image format, the pages perfomance was improved tremendously.
+
+![image](/assets/images/index-page-anaylsis.png)
+
+#### Our work page
+
+The same changes applied to the images on the home page were carried out on this page.
+
+![image](/assets/images/our-work-page-analysis.png)
+
+#### Ask us page
+
+On this page, it was identified that two elements had been given the same id attiribute instead a class attribute. This was rectified and too, tremendously improved the page.
+
+![image](/assets/images/ask-us-error2.png)
+![image](/assets/images/ask-us-page-analysis.png)
+
+#### HTML and CSS Validation
+
+To validate both the HTML and CSS for the website, W3C's CSS and Markup Validation Services where used and after changes made on errors that had been identified. The page was no errors for both html and css.
+
+![image](/assets/images/css%20validation.png)
+![image](/assets/images/html%20validation.png)
+
+## Credits
+
+### Code used
+
+- The Navbar on this website was inspired from the code for the Love Running project - CodeInstitute.
+  
+  ![image](/assets/images/navbar-loverunning-project.png)
+
+### Content
+
+The web site is meant for a fictional workshop, however the content is inspired by my work experience as a glazier.
+
+### Media
+
+- [flaticon](https://www.flaticon.com/free-icon/windscreen_5382703) was used to find a the icon to be used in the window tab as a favicon
+- [Favicon generator](https://favicon.io/): to generate the fav icon on the tab next to the title.
+- [Google fonts](https://fonts.google.com) was used to find matching fonts for the website.
+- [Pexels](https://www.pexels.com/) was used for the images on the website, Microsoft Photo app to edit them and to covert the to a Webp image format, [Convertio](https://convertio.co/) was used.
+- [Colormind](http://colormind.io/bootstrap>) was used to find colors matching for the design of the website.
+- Love Running - Essentials Project by code institute was such an invaluable inspiration.
+
+### Acknowledgement
+
+Lastly, I am thankful to my mentor at Code institute, *[Spencer Barriball](https://github.com/5pence)*, for the insightful guidance and feedback during this project.

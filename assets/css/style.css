@@ -479,9 +479,8 @@ figcaption {
 
      .pyhsical-location {
          display: inline-block;
-         padding: 1rem 1rem;
+         padding: 15px 15px;
          vertical-align: middle;
-
      }
 
     #ask-us {
