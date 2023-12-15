@@ -54,7 +54,7 @@ To get matching designs of the colours used to the website, [Coolors](http://coo
 
 ![image](/assets/images/color-pallete.png)
 
-- Header and Footer color : #58A4B0 - Note that in the header, the color is applied to the Logo, as seen in the image below. 
+- Header and Footer color : #58A4B0 - Note that in the header, the color is applied to the Logo, as seen in the image below.
   
   ![image](/assets/images/all-for-glass-logo.png)
   
